@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(black, white);
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.kotak {
+    background: linear-gradient(white, rgb(0, 0, 0));
+    width: 350px;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc; 
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+button {
+    padding: 12px;
+    background: #6e7279;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+.hasil {
+    margin-top: 20px;
+    padding: 15px;
+    background: #e8f4ff;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+}
